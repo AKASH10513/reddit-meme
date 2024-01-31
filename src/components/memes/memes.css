@@ -1,0 +1,23 @@
+.memes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(49, 37, 47);
+    padding: 15px;
+    margin: 0 -15px; 
+  }
+  
+ 
+  .first {
+    box-shadow: 0 4px 8px rgba(221, 202, 202, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    transition: box-shadow 0.3s ease; 
+  }
+  
+  .first:hover {
+    box-shadow: 20px 46px 54px rgba(241, 220, 220, 0.2);
+  }
+
+  
